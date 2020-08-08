@@ -28,7 +28,7 @@ def generate_reverse_dictionary_by_table(table, key_column_name, value_column_na
 # Currently we do not accept words in bracket (X) and words in black list
 #
 def is_key_in_blacklist(key):
-    return key[:1] is '(' or any(key in item for item in blacklist_keys)
+    return key[:1] == '(' or any(key in item for item in blacklist_keys)
 
 
 #
