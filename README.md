@@ -24,3 +24,8 @@ All you need to do is to install the docker container by typing
 then you can run the script from the container with  
 'python main.py'  
 (If you choose to do so, please notice that the output is in html file and has link to local files. In case you want to get this html to your pc copy the hole html_template directory and the /tmp directory (to the host /tmp))  
+
+# Testing
+For running the unit tests please run  
+'python3 -m unittest'  
+from the code directory
